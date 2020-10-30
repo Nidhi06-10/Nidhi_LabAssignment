@@ -9,11 +9,10 @@ public class ReplaceConsonant
 	public static void main(String[] args)
 	{
 		// TODO Auto-generated method stub
-		
-		
 		System.out.println("Enter the string");
 		Scanner sc=new Scanner(System.in);
 		String string=sc.nextLine();
+		sc.close();
 	     System.out.println(replaceConsonants(string.toCharArray())); 
 	}
 	public static String replaceConsonants(char[] string)  

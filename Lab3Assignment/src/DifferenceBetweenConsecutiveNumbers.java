@@ -34,4 +34,5 @@ public class DifferenceBetweenConsecutiveNumbers
 			System.out.print(difference+" ");  
 		}  
 	}  
+	s.close();
 }

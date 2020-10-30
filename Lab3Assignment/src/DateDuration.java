@@ -11,6 +11,7 @@ public class DateDuration {
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter the year, month, date :");
+		s.close();
 		String dayInput=s.nextLine();
 		String monthInput=s.nextLine();
 		String yearInput=s.nextLine();

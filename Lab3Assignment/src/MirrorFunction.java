@@ -12,8 +12,7 @@ public class MirrorFunction {
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter the string");
 		string=s.nextLine();
-		
-	    
+		s.close(); 
 	    System.out.println(" "+string+"|"+" "+getImage(string));
 	}
 
