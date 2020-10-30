@@ -1,3 +1,7 @@
+/*
+Author:Nidhi
+Desc:Prefix Code
+*/	
 import java.util.*;
 public class Prefix {
 
@@ -11,6 +15,7 @@ public class Prefix {
 		String gender=s.nextLine();
 		System.out.println("Enter Marital Status");
 		String maritalStatus=s.nextLine();
+		s.close();
 		if(gender.equalsIgnoreCase("female")){
 			if(maritalStatus.equalsIgnoreCase("Yes")) {
 				System.out.println(prefixArray[2]+"."+name);
