@@ -1,3 +1,8 @@
+/*
+author:Nidhi
+Desc:Remove Duplicates
+
+*/
 import java.util.*;
 		
 public class RemoveDuplicateAndDescendingOrder {
