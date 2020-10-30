@@ -1,3 +1,7 @@
+/*
+Author :Nidhi
+Desc:Checks power of two
+*/
 import java.util.Scanner;
 
 public class CheckPowerOfTwo {

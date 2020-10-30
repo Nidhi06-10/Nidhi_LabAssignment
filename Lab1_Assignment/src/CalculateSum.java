@@ -1,3 +1,8 @@
+/* Author:Nidhi
+   Desc:Calculates the sum
+   
+
+*/
 import java.util.Scanner;
 
 public class CalculateSum {

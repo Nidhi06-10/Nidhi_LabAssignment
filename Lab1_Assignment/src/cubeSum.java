@@ -1,6 +1,6 @@
 /**
  * 
- * @author NIDHI
+ * Author :NIDHI
  * Desc:Sum of cubes of digit
  * Date:22/10/2020
  *

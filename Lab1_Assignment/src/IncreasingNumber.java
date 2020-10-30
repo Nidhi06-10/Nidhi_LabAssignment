@@ -1,3 +1,8 @@
+/* Author:Nidhi
+   Desc:Incresing number
+   Date:22/10/2020 
+
+*/
 import java.util.*;
 public class IncreasingNumber {
 	
@@ -33,6 +38,7 @@ public class IncreasingNumber {
 		 }	
 		 return flag;
 	}
+	s.close();
 
 		 
 }

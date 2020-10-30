@@ -12,6 +12,7 @@ public class TrafficLightSimulates {
 		System.out.println("Traffic Light Simulation\n");
 		System.out.println("1.Red\n2.Yellow\n3.Green\nEnter your choice");
 		Scanner s=new Scanner(System.in);
+		s.close();
 		int choice =s.nextInt();
 		switch (choice){
 		case 1: System.out.println("Stop");
@@ -23,7 +24,9 @@ public class TrafficLightSimulates {
 		default: System.out.println("Enter valid choice");	
 			
 		}
+
 	}
+
 
 }
 
