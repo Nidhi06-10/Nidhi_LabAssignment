@@ -12,9 +12,9 @@ public class StringTokenizerDemo {
 		// TODO Auto-generated method stub
 	    int sum=0;
 		Scanner s=new Scanner(System.in);
-		
 		System.out.println("Enter the string of integers");
-		 String str=s.nextLine();
+		String str=s.nextLine();
+		s.close();
 		 //StringTokenizer is a class which is used to break the sentence to words
 		StringTokenizer stringTokenizer=new StringTokenizer(str,",");
 		while(stringTokenizer.hasMoreTokens()) {

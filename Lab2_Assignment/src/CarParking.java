@@ -1,3 +1,8 @@
+/*
+Author:Nidhi
+Desc:Car parking in different floors in different avalilable space
+Date:24/10/2020
+*/
 import java.util.Scanner;
 class Parking{
     private String name;
@@ -21,7 +26,9 @@ class Parking{
 public class CarParking {
     public static void main(String[] args) {
         Scanner s= new Scanner(System.in);
+        //Array created for 5 floors
         Parking parking[][] = new Parking[5][];
+        //Available space for the floor 
         parking[0] = new Parking[100];
         parking[1] = new Parking[70];
         parking[2] = new Parking[50];
@@ -65,8 +72,8 @@ public class CarParking {
                 	
                     System.out.println("Enter Vehicle Registered Number");
                     reg_no = s.next();
-                    for(int row=0; row < parking.length; row++) {
-                        for (int col = 0; col < parking[row].length; col++) {
+                    for(int row=0; row < parking.length; row++) {//loop runs till 5 floors
+                        for (int col = 0; col < parking[row].length; col++) {//loop runs till corresponding parking row length
                             if (parking[row][col] != null) {
                                 Parking temp = parking[row][col];
 
@@ -75,6 +82,7 @@ public class CarParking {
                                     parking[row][col] = new Parking(null, null);
                                    
                                     switch (row)
+                                    //if the car is retrieved corresponding space gets incremented
                                     {
                                         case 0: first++; break;
                                         case 1: second++; break;

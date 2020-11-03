@@ -11,13 +11,13 @@ public class DateDuration {
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter the year, month, date :");
+		int dayInput=s.nextInt();
+		int monthInput=s.nextInt();
+		int yearInput=s.nextInt();
 		s.close();
-		String dayInput=s.nextLine();
-		String monthInput=s.nextLine();
-		String yearInput=s.nextLine();
-		int d = Integer.parseInt( yearInput ); // enter year[ie. 1996]
+	/*	int d = Integer.parseInt( yearInput ); // enter year[ie. 1996]
 		int m = Integer.parseInt( monthInput );  // 1-12 for January-December.
-		int y = Integer.parseInt( dayInput );  //1-28/31 
+		int y = Integer.parseInt( dayInput );  //1-28/31 */
 
 		LocalDate date = LocalDate.of( y , m , d );
 	    LocalDate now = LocalDate.now();
