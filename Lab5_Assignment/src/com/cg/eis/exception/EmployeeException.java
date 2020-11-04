@@ -1,16 +1,16 @@
-package com.cg.eis.exception;
 
 /**
  * 
- * Author :Nidhi Desc:An employeeException class is created
+ * Author :Nidhi
+ *  Desc:An employeeException class is created
  */
+package com.cg.eis.exception;
+
 public class EmployeeException {
 	private float salary;
 
 	/**
 	 * to get the salary of the employee
-	 * 
-	 * @return salary
 	 */
 
 	public float getSalary() {
@@ -19,8 +19,6 @@ public class EmployeeException {
 
 	/**
 	 * to set the salary
-	 * 
-	 * @param salary
 	 */
 
 	public void setSalary(float salary) {
