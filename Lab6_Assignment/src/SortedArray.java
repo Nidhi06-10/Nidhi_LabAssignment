@@ -17,13 +17,13 @@ public class SortedArray {
 	}
 
 	private static List<Integer> getSorted(List<Integer> result) {
-		List<Integer> reverseSorted = new ArrayList<Integer>(result);
+		List<Integer> reverseSorted = new ArrayList<Integer>(result);// reversed array is strored in result
 		Collections.reverse(reverseSorted);
 		for (int i = 0; i > result.size(); i++) {
 			reverseSorted.add(i);
 		}
 		System.out.println("Reverse Sorted Array:\n " + reverseSorted);
-		Collections.sort(reverseSorted);
+		Collections.sort(reverseSorted);// reversed array is sorted
 		for (int i = 0; i > result.size(); i++) {
 			reverseSorted.add(i);
 		}
